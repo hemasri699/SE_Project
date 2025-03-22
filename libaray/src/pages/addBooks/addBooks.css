@@ -1,0 +1,143 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: full;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.addbook-content {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.addBook-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.addBook-header h2 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0px auto;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+}
+
+.book-details-form-container {
+    width: 100%;
+}
+
+.book-details-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-details-form label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #bbb;
+}
+
+.book-details-form input,
+.book-details-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-top: 8px;
+    background-color: #2a2a2a;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-details-form input:focus,
+.book-details-form textarea:focus {
+    border-color: #ff9800;
+    outline: none;
+    background-color: #333;
+}
+
+.textarea-description {
+    resize: vertical;
+    height: 150px;
+}
+
+.book-details-form input[type="file"] {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-preview img {
+    width: 100%;
+    height: auto;
+}
+
+.book-details-form button {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-details-form button:hover {
+    background-color: #e68900;
+}
+
+.book-details-form button:active {
+    transform: scale(0.98);
+}
+
+.book-details-form input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.book-details-form input[type="number"]::-webkit-outer-spin-button,
+.book-details-form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.popUp {
+    padding: 15px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.popUp .popup-message {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
