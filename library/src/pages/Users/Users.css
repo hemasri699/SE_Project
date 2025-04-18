@@ -1,0 +1,93 @@
+/* Users.css */
+
+.res-container {
+    padding: 10px;
+    background-color: var(--bg-color); /* Light background */
+    color: var(--text-color); /* Light text color */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .res-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--accent); /* Accent color for headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Input Styling */
+  .res-container input {
+    margin: 20px 0;
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid var(--border-color); /* Light border color */
+    border-radius: 5px;
+    background-color: var(--input-bg); /* Light input background */
+    color: var(--text-color); /* Light text color */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+  }
+  
+  .res-container input:focus {
+    border-color: var(--accent); /* Accent color on focus */
+    box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); /* Lighter shadow for focus */
+  }
+  
+  /* Table Layout */
+  .res-users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .res-users-table th,
+  .res-users-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid var(--border-color); /* Light border color */
+  }
+  
+  /* Table Headers */
+  .res-users-table th {
+    background-color: var(--surface); /* Light surface color */
+    color: var(--accent); /* Accent color for table headers */
+    font-size: 1.3rem;
+  }
+  
+  /* Table Body Rows */
+  .res-users-table tbody tr {
+    background-color: var(--input-bg); /* Light background for rows */
+  }
+  
+  .res-users-table tbody tr:nth-child(odd) {
+    background-color: var(--surface); /* Light alternating row color */
+  }
+  
+  /* Column width helpers */
+  .s-no {
+    width: 10%;
+  }
+  
+  .lib-res-count {
+    width: 20%;
+  }
+  
+  /* Full Width Button Styling */
+  .full-width-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--input-bg); /* Light button background */
+    text-align: left;
+    cursor: pointer;
+    color: var(--accent); /* Accent color for button text */
+    text-transform: capitalize;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .full-width-button:hover {
+    background-color: var(--accent); /* Accent color on hover */
+    color: var(--bg-color); /* Dark text on hover */
+  }
+  
